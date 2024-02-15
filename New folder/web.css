@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    background-color: red;
+    border-bottom: 1px solid white;
+    height: 70px;
+    width: 100%;
+    box-shadow: 2px 0px 5px white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+}
+.menu a{
+    background-color: red;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+}
+.menu a:last-child{
+    background-color: black;
+    color: aliceblue;
+    text-transform: translate(-50%,-50%);
+    animation:blink 2s linear infinite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    perspective: 2000px;
+}
+.left{
+    animation: img 2s    ease-in-out infinite ;
+    position: absolute;
+    box-shadow: 2px 0px 5px white;
+
+  
+
+}
+hr{
+    width: 80%;
+    border: solid black;
+}
+img{
+   
+   
+}
+.deal{
+    
+}
+body{
+    background-color: rgb(203, 120, 12);
+    color: aliceblue;
+    font-family: sans-serif;
+    
+}
+.right{
+    margin-left: 3%;
+}
+@keyframes img {
+    from{
+        left: 20%;
+    }
+    to{
+        left: 0%;
+    }
+    
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    
+}
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+h2{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.image .kids{
+    align-items: center;
+    justify-content: flex;
+    background-color: black;
+}
+span{
+   background-color: black;
+   color: white;
+   box-shadow: 2px 0px 5px white;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: sans-serif;
+}
+
+   
+    
